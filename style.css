@@ -1,0 +1,131 @@
+* {
+    font-family: "poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 42px 0 80px 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233D;
+    margin-right: 32px;
+    line-height: 21px;
+    text-decoration: none;
+}
+main{
+    margin-bottom: 200px;
+}
+
+.button-header {
+    width: 124px;
+    height: 52px;
+    background-color: #6FBF44;
+    border-color: #4CB538;
+    border-radius: 5px;
+    border-style: solid;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    position: absolute;
+    left: 358px;
+    bottom: 677px;
+}
+
+
+
+img {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+
+
+}
+
+section {
+    display: inline-block;
+    margin-left: 45px;
+}
+
+h1 {
+    font-size: 62px;
+    font-weight: 700;
+    color: #161A49;
+    width: 582px;
+    height: 164px;
+    margin-bottom: 47px;
+}
+
+p {
+    font-size:18px ;
+    font-weight: 400;
+    color:#4B505A ;
+    width: 450px;
+    height: 99px;
+    line-height: 33px;
+    margin-bottom: 55px;
+    letter-spacing: 0.5px;
+    
+}
+.link-section{
+    font-size: 18px;
+    font-size: 500;
+    line-height: 27px;
+    color: #6FBF44;
+    text-decoration: none;
+    margin-bottom: 40px;
+}
+@media (max-width:600px){
+
+    header{
+        display: none;
+    }
+img{
+    position: fixed;
+    bottom: 100px;
+    left: 21px;
+    width: 312px;
+    height: 288px;
+}
+h1{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+    width: 278px;
+    margin: 99px -6px -100px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    width: 304px;
+    height: 165px;
+
+}
+.link-section{
+    position: absolute;
+    right: 135px;
+    bottom: 304px
+}
+.button-header{
+    position: absolute;
+    right: 13px;
+    top: 11px;
+    margin: 0px;
+    width: 77px;
+    height: 28px;
+    font-size: 13px;
+}
+}
+
+
+
+
