@@ -10,12 +10,14 @@ header {
 }
 
 .link-header {
+    cursor: pointer;
     font-size: 14px;
     font-weight: 400;
     color: #17233D;
     margin-right: 32px;
     line-height: 21px;
     text-decoration: none;
+   
 }
 main{
     margin-bottom: 200px;
@@ -84,7 +86,7 @@ p {
 @media (max-width:600px){
 
     header{
-        display: none;
+       display: none;
     }
 img{
     position: fixed;
@@ -123,9 +125,9 @@ p{
     width: 77px;
     height: 28px;
     font-size: 13px;
-}
-}
 
+}
+}
 
 
 
